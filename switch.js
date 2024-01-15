@@ -28,7 +28,7 @@ switch(day){
 }
 
 
-let marks = 80;
+let marks = 83;
 let grade;
 
 switch(true){
@@ -40,6 +40,9 @@ switch(true){
         break;
     case marks >=60:
         console.log("C");
+        break;
+    default:
+        console.log("fail");
         break;
 }
 
