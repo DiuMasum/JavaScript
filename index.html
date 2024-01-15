@@ -7,12 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Enter your age:</h1>
-    <input id="myInput"><br><br>
-    <button id="myButton">submit</button>
-    <h3 id="myH3"></h3>
+    <input type="checkbox" id="myCheckBox">
+    <label for="myCheckBox">Subscribe</label><br><br>
+
+    <input type="radio" id="visaBtn">
+    <label for="visaBtn">Visa</label><br>
+    <input type="radio" id="mastercardBtn">
+    <label for="mastercardBtn">Mastercard</label><br>
+    <input type="radio" id="paypalBtn">
+    <label for="paypalBtn">Paypal</label><br><br>
+
+    <button type="submit" id="mySubmitBtn">submit</button>
+
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
 
 
-    <script src="ifStatement.js"></script>
+    <script src="checkedProperty.js"></script>
 </body>
 </html>
